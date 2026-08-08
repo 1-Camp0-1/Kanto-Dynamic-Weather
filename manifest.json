@@ -1,0 +1,22 @@
+{
+  "id": "kanto_dynamic_weather",
+  "name": "Kanto Dynamic Weather",
+  "version": "1.0.3",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
+  "priority": 110,
+  "dependencies": [
+    "DRAMATIC_SHAPE@>=1.7.2 <1.8.0"
+  ],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "description": "Dynamic 3D weather for Dramatic Shape: rolling fog, volumetric clouds and light shafts, rain, thunderstorms and lightning, atmospheric motes, stylised persistent puddles, HD celestial bodies, and a continuous distant Kanto horizon. Includes automatic branching weather transitions and manual presets.",
+  "github": "1-Camp0-1/Kanto-Dynamic-Weather"
+}
